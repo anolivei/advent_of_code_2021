@@ -14,7 +14,6 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/anolivei/advent_of_code_2021?color=4CA93F">
 
-  <img alt="License" src="https://img.shields.io/github/license/anolivei/advent_of_code_2021?color=4CA93F">
 
 </p>
 
