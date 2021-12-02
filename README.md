@@ -73,7 +73,7 @@ $ python dayxx.py
 
 ## License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
 
 &#xa0;

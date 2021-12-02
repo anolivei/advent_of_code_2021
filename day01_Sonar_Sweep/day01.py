@@ -6,7 +6,7 @@ def open_input():
     return array
 
 
-def larger_measurements(array):
+def part_one(array):
     lenght = len(array)
     increased = 0
     for i in range(0, lenght - 1):
@@ -15,7 +15,7 @@ def larger_measurements(array):
     print("part one:", increased)
 
 
-def larger_measurements_three(array):
+def part_two(array):
     lenght = len(array)
     increased = 0
     for i in range(0, lenght - 3):
@@ -28,5 +28,5 @@ def larger_measurements_three(array):
 
 if (__name__ == "__main__"):
     array = open_input()
-    larger_measurements(array)
-    larger_measurements_three(array)
+    part_one(array)
+    part_two(array)
