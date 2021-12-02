@@ -8,7 +8,7 @@
 <h1 align="center"> Advent of Code 2021 🌟 </h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/anolivei/advent_of_code_2021?color=4CA93F">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/anolivei/advent_of_code_2021?color=3FA951">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/anolivei/advent_of_code_2021?color=4CA93F">
 
@@ -52,7 +52,7 @@ todo
 
 ## Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting, you need to have [Git](https://git-scm.com) and [python3](https://www.python.org/downloads/) installed.
 
 ## Starting ##
 
