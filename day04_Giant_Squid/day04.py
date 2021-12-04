@@ -28,14 +28,14 @@ def part_one(num):
 
 
 def get_chosen_numbers():
-    with open("input_test.txt") as fd:
+    with open("input.txt") as fd:
         array = fd.read().splitlines()
     num = [int(s) for s in array[0].split(',')]
     return(num)
 
 
 def get_rows():
-    rows = np.loadtxt("input_test.txt", skiprows=1, dtype=int)
+    rows = np.loadtxt("input.txt", skiprows=1, dtype=int)
     return rows
 
 
@@ -62,7 +62,7 @@ def split(arr, size):
 
 
 def part_two(num):
-    with open("input_test.txt") as fd:
+    with open("input.txt") as fd:
         array = fd.read().splitlines()
     array = array[1:]
     a_matrix = []
