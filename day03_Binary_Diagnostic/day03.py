@@ -1,7 +1,6 @@
 def open_input():
     with open("input.txt") as fd:
         array = fd.read().splitlines()
-        fd.close()
     return array
 
 
