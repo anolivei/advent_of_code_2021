@@ -8,12 +8,13 @@
 <h1 align="center"> Advent of Code 2021 🌟 </h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/anolivei/advent_of_code_2021?color=3FA951">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/anolivei/advent_of_code_2021?color=3de069">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/anolivei/advent_of_code_2021?color=4CA93F">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/anolivei/advent_of_code_2021?color=3de069">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/anolivei/advent_of_code_2021?color=4CA93F">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/anolivei/advent_of_code_2021?color=3de069">
 
+  <img alt="Pep8" src="https://github.com/anolivei/advent_of_code_2021/actions/workflows/pep8.yml/badge.svg?event=push">
 
 </p>
 
