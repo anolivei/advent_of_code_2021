@@ -50,11 +50,11 @@ There are two puzzles per day and they are unlock at midnight EST/UTC-5:
 
 | Day | Part one | Part two |
 | --- | ------- | -------- |
-| [Day 1: Sonar Sweep](https://github.com/anolivei/advent_of_code_2021/tree/main/day01_Sonar_Sweep) | <center>⭐️</center> | <center>⭐️</center> |
-| [Day 2: Dive!](https://github.com/anolivei/advent_of_code_2021/tree/main/day02_Dive) | <center>⭐️</center> | <center>⭐️</center> |
-| [Day 3: Binary Diagnostic](https://github.com/anolivei/advent_of_code_2021/tree/main/day03_Binary_Diagnostic) | <center>⭐️</center> | <center>⭐️</center> |
-| [Day 4: Giant Squid](https://github.com/anolivei/advent_of_code_2021/tree/main/day04_Giant_Squid) | <center>⭐️</center> | <center>⭐️</center> |
-| [Day 5: Hydrothermal Venture](https://github.com/anolivei/advent_of_code_2021/tree/main/day05_Hydrothermal_Venture)| <center>⭐️</center> | <center>⭐️</center> |
+| [Day 1: Sonar Sweep](https://github.com/anolivei/advent_of_code_2021/tree/main/day01_Sonar_Sweep) | ⭐️ | ⭐️ |
+| [Day 2: Dive!](https://github.com/anolivei/advent_of_code_2021/tree/main/day02_Dive) | ⭐️ | ⭐️ |
+| [Day 3: Binary Diagnostic](https://github.com/anolivei/advent_of_code_2021/tree/main/day03_Binary_Diagnostic) | ⭐️ | ⭐️ |
+| [Day 4: Giant Squid](https://github.com/anolivei/advent_of_code_2021/tree/main/day04_Giant_Squid) | ⭐️ | ⭐️ |
+| [Day 5: Hydrothermal Venture](https://github.com/anolivei/advent_of_code_2021/tree/main/day05_Hydrothermal_Venture)| ⭐️ | ⭐️ |
 
 
 ## Technologies ##
