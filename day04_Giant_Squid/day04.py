@@ -28,25 +28,30 @@ def solution(num, part):
             if row[0].size > 0 or col[0].size > 0:
                 if i not in winners:
                     winners.append(i)
-            if part == "one":
-                if len(winners) == 1:
-                    break
-            elif part == "two":
-                if len(winners) == n_boards:
-                    break
-        if part == "one":
-            if len(winners) == 1:
+            if check(part, winners, n_boards) == 1:
                 break
-        elif part == "two":
-            if len(winners) == n_boards:
-                break
+        if check(part, winners, n_boards) == 1:
+            break
     a_matrix[i] = np.where(a_matrix[i] == -1, 0, a_matrix[i])
     row = sum(a_matrix[i].sum(axis=0))
     return (row * n)
 
+
+def check(part, winners, n_boards):
+    if part == "one":
+        if len(winners) == 1:
+            return 1
+    elif part == "two":
+        if len(winners) == n_boards:
+            return 1
+    else:
+        return 0
+
+
 def part_one(num):
     ret = solution(num, "one")
     print("part one:", ret)
+
 
 def part_two(num):
     ret = solution(num, "two")
