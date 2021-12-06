@@ -21,7 +21,6 @@ def part_one(array, matrix):
         x2 = array[i][2]
         y2 = array[i][3]
         if (x1 == x2 or y1 == y2):
-            j = 0
             if x1 != x2:
                 j = x1 if x1 < x2 else x2
                 k = x1 if x1 > x2 else x2
@@ -39,14 +38,33 @@ def part_one(array, matrix):
                         count += 1
                     j += 1
     print("part one:", count)
+    return(count)
 
 
-def part_two():
-    print("part two:")
+def part_two(array, matrix, count):
+    for i in range(0, len(array)):
+        x1 = array[i][0]
+        y1 = array[i][1]
+        x2 = array[i][2]
+        y2 = array[i][3]
+        if (abs(x1 - x2) == abs(y1 - y2)):
+            j = x1 if x1 < x2 else x2
+            k = x1 if x1 > x2 else x2
+            m = y1 if j == x1 else y2
+            while j <= k:
+                matrix[m][j] += 1
+                if(matrix[m][j] == 2):
+                    count += 1
+                j += 1
+                if (x1 - x2) * (y1 - y2) >= 0:
+                    m += 1
+                else:
+                    m -= 1
+    print("part two:", count)
 
 
 if __name__ == "__main__":
     array = open_input()
     matrix = create_matrix()
-    part_one(array, matrix)
-    part_two()
+    count = part_one(array, matrix)
+    part_two(array, matrix, count)
