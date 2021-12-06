@@ -37,36 +37,49 @@
 <br>
 
 ## About ##
+[Advent of Code](https://adventofcode.com/2021/about) is an Advent calendar of small programming puzzles for a variety 
+of skill sets and skill levels that can be solved in any programming language
+you like. People use them as a speed contest, interview prep, company training,
+university coursework, practice problems, or to challenge each other.
 
-Here are my answers for the [Advent of Code 2021](https://adventofcode.com/2021) puzzles =)
+Here are my answers for the Advent of Code 2021's puzzles =)
 
 ## Features ##
 
-todo
+There are two puzzles per day and they are unlock at midnight EST/UTC-5:
+
+| Day | Part one | Part two |
+| --- | ------- | -------- |
+| [Day 1: Sonar Sweep](https://github.com/anolivei/advent_of_code_2021/tree/main/day01_Sonar_Sweep) | ⭐️ | ⭐️ |
+| [Day 2: Dive!](https://github.com/anolivei/advent_of_code_2021/tree/main/day02_Dive) | ⭐️ | ⭐️ |
+| [Day 3: Binary Diagnostic](https://github.com/anolivei/advent_of_code_2021/tree/main/day03_Binary_Diagnostic) | ⭐️ | ⭐️ |
+| [Day 4: Giant Squid](https://github.com/anolivei/advent_of_code_2021/tree/main/day04_Giant_Squid) | ⭐️ | ⭐️ |
+| [Day 5: Hydrothermal Venture](https://github.com/anolivei/advent_of_code_2021/tree/main/day05_Hydrothermal_Venture)| ⭐️ | ⭐️ |
 
 ## Technologies ##
 
 The following tools were used in this project:
-todo
-
+- [python](https://www.python.org/)
+- [NumPy](https://numpy.org/)
 ## Requirements ##
 
-Before starting, you need to have [Git](https://git-scm.com) and [python3](https://www.python.org/downloads/) installed.
+Before starting, you need to have [Git](https://git-scm.com), [python 3](https://www.python.org/downloads/) and [pip](https://pypi.org/project/pip/) installed.
 
 ## Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/anolivei/advent_of_code_2021
+git clone https://github.com/anolivei/advent_of_code_2021
 
 # Access
-$ cd advent_of_code_2021
+cd advent_of_code_2021
 
 # Install dependencies
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 
 # Run the project
-$ python dayxx.py
+cd python dayxx_Day_Title
+python dayxx.py
 
 ```
 
