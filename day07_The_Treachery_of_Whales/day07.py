@@ -22,14 +22,13 @@ def part_two(array):
     posiction = math.floor(statistics.mean(array))
     ret = 0
     for i in range(0, len(array)):
-        ret += factorial(abs(array[i] - posiction))
+        ret += sum_factorial(abs(array[i] - posiction))
     print("part two:", ret)
 
 
-def factorial(n):
+def sum_factorial(n):
     ret = 0
     i = 1
-
     while i <= n:
         ret += i
         i += 1
