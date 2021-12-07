@@ -45,7 +45,7 @@ def solution(array, n):
             num_lanternfish = dictionary[j]
             if j == 0:
                 new_dictionary[6] += num_lanternfish
-                new_dictionary[8] += num_lanternfish
+                new_dictionary[8] = num_lanternfish
             else:
                 new_dictionary[j - 1] += num_lanternfish
         dictionary = new_dictionary
