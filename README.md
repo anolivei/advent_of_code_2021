@@ -79,7 +79,7 @@ cd advent_of_code_2021
 pip install -r requirements.txt
 
 # Run the project
-cd python dayxx_Day_Title
+cd dayxx_Day_Title
 python dayxx.py
 
 ```
