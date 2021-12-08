@@ -28,10 +28,8 @@ def part_two(array):
 
 def sum_factorial(n):
     ret = 0
-    i = 1
-    while i <= n:
+    for i in range(1, n + 1):
         ret += i
-        i += 1
     return ret
 
 
