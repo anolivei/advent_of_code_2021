@@ -58,7 +58,7 @@ There are two puzzles per day and they are unlock at midnight EST/UTC-5:
 | [Day 6: Lanternfish ](https://github.com/anolivei/advent_of_code_2021/tree/main/day06_Lanternfish)| ⭐️ | ⭐️ |
 | [Day 7: The Treachery of Whales](https://github.com/anolivei/advent_of_code_2021/tree/main/day07_The_Treachery_of_Whales)| ⭐️ | ⭐️ |
 | [Day 8: Seven Segment Search](https://github.com/anolivei/advent_of_code_2021/tree/main/day08_Seven_Segment_Search)| ⭐️ | ⭐️ |
-| [Day 9: Smoke Basin](https://github.com/anolivei/advent_of_code_2021/tree/main/day09_Smoke_Basin)|  |  |
+| [Day 9: Smoke Basin](https://github.com/anolivei/advent_of_code_2021/tree/main/day09_Smoke_Basin)| ⭐️ |  |
 
 ## Technologies ##
 
