@@ -29,27 +29,7 @@ def is_pair(last, actual):
     return False
 
 
-def part_one(matrix):
-    last = []
-    ret = 0
-    value = {')': 3, ']': 57, '}': 1197, '>': 25137}
-    for i in range(0, len(matrix)):
-        j = 0
-        while j < len(matrix[i]):
-            if is_open(matrix[i][j]):
-                last.append(matrix[i][j])
-                j += 1
-            elif is_pair(last.pop(-1), matrix[i][j]):
-                j += 1
-            else:
-                ret += value[matrix[i][j]]
-                break
-    print("part one:", ret)
-
-
-def part_two(matrix):
-    value = {'(': 1, '[': 2, '{': 3, '<': 4}
-    a_ret = []
+def solution(value, ret, matrix, part):
     for i in range(0, len(matrix)):
         last = []
         j = 0
@@ -60,14 +40,28 @@ def part_two(matrix):
             elif is_pair(last.pop(-1), matrix[i][j]):
                 j += 1
             else:
+                if (part == "one"):
+                    ret += value[matrix[i][j]]
                 break
-        if j == (len(matrix[i])):
-            ret = 0
+        if part == "two" and j == (len(matrix[i])):
+            ret_two = 0
             k = len(last) - 1
             while k >= 0:
-                ret = ret * 5 + value[last[k]]
+                ret_two = ret_two * 5 + value[last[k]]
                 k -= 1
-            a_ret.append(ret)
+            ret.append(ret_two)
+    return ret
+
+
+def part_one(matrix):
+    value = {')': 3, ']': 57, '}': 1197, '>': 25137}
+    ret = solution(value, 0, matrix, "one")
+    print("part one:", ret)
+
+
+def part_two(matrix):
+    value = {'(': 1, '[': 2, '{': 3, '<': 4}
+    a_ret = solution(value, [], matrix, "two")
     print("part two:", statistics.median(a_ret))
 
 
