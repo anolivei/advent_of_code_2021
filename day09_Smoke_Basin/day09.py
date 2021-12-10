@@ -54,8 +54,8 @@ def part_two(matrix, lowers):
                     a_around.append((i + 1, j))
                     a_around.append((i - 1, j))
         a_size.append(basin_size)
-    a_size = sorted(a_size)
-    ret = a_size[-1] * a_size[-2] * a_size[-3]
+    a_size.sort(reverse=True)
+    ret = a_size[0] * a_size[1] * a_size[2]
     print("part two:", ret)
 
 
