@@ -60,7 +60,7 @@ There are two puzzles per day and they are unlock at midnight EST/UTC-5:
 | [Day 8: Seven Segment Search](https://github.com/anolivei/advent_of_code_2021/tree/main/day08_Seven_Segment_Search)| ⭐️ | ⭐️ |
 | [Day 9: Smoke Basin](https://github.com/anolivei/advent_of_code_2021/tree/main/day09_Smoke_Basin)| ⭐️ | ⭐️ |
 | [Day 10: Syntax Scoring](https://github.com/anolivei/advent_of_code_2021/tree/main/day10_Syntax_Scoring)| ⭐️ | ⭐️ |
-
+| [Day 11: Dumbo Octopus](https://github.com/anolivei/advent_of_code_2021/tree/main/day11_Dumbo_Octopus)| ⭐️ | ⭐️ |
 ## Technologies ##
 
 The following tools were used in this project:
