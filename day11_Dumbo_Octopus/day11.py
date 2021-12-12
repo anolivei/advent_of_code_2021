@@ -23,12 +23,13 @@ def surroundings(i_init, j_init, i_max, j_max):
 
 
 def solution(step_max, part):
+    init = 0 if part == "one" else 1
     matrix = open_input()
     flash = 0
     hor = len(matrix[0])
     ver = len(matrix)
     coord = []
-    for step in range(1, step_max):
+    for step in range(init, step_max):
         flashed = defaultdict(int)
         for i in range(0, ver):
             for j in range(0, hor):
