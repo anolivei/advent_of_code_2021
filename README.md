@@ -61,6 +61,9 @@ There are two puzzles per day and they are unlock at midnight EST/UTC-5:
 | [Day 9: Smoke Basin](https://github.com/anolivei/advent_of_code_2021/tree/main/day09_Smoke_Basin)| ⭐️ | ⭐️ |
 | [Day 10: Syntax Scoring](https://github.com/anolivei/advent_of_code_2021/tree/main/day10_Syntax_Scoring)| ⭐️ | ⭐️ |
 | [Day 11: Dumbo Octopus](https://github.com/anolivei/advent_of_code_2021/tree/main/day11_Dumbo_Octopus)| ⭐️ | ⭐️ |
+| [Day 12: Passage Pathing](https://github.com/anolivei/advent_of_code_2021/tree/main/day12_Passage_Pathing)| ⭐️ | ⭐️ |
+| [Day 13: Transparent Origami](https://github.com/anolivei/advent_of_code_2021/tree/main/day13_Transparent_Origami)| | |
+| [Day 14: Extended Polymerization](https://github.com/anolivei/advent_of_code_2021/tree/main/day14_Extended_Polymerization)| | |
 ## Technologies ##
 
 The following tools were used in this project:
