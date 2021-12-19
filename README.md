@@ -68,6 +68,7 @@ There are two puzzles per day and they are unlock at midnight EST/UTC-5:
 | [Day 16: Packet Decoder](https://github.com/anolivei/advent_of_code_2021/tree/main/day16_Packet_Decoder)| | |
 | [Day 17: Trick Shot](https://github.com/anolivei/advent_of_code_2021/tree/main/day17_Trick_Shot)| | |
 | [Day 18: Snailfish](https://github.com/anolivei/advent_of_code_2021/tree/main/day18_Snailfish)| | |
+| [Day 19: Beacon Scanner](https://github.com/anolivei/advent_of_code_2021/tree/main/day19_Beacon_Scanner)| | |
 
 ## Technologies ##
 

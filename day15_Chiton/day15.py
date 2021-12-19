@@ -1,5 +1,6 @@
 from collections import defaultdict
 from queue import PriorityQueue
+import math
 
 
 def open_input():
@@ -41,7 +42,7 @@ def solution(n_tiles):
     matrix = open_input()
     i_max = n_tiles * len(matrix) - 1
     j_max = n_tiles * len(matrix[0]) - 1
-    delta_s = defaultdict(lambda: 99999999)
+    delta_s = defaultdict(lambda: math.inf)
     delta_s[(0, 0)] = 0
     visited = set()
     unvisited = PriorityQueue()
