@@ -1,6 +1,5 @@
 from collections import defaultdict
 from queue import PriorityQueue
-import math
 
 
 def open_input():
@@ -37,12 +36,9 @@ def matrix_5x5(matrix, point):
     j_len = len(matrix[0])
     i = point[0] % i_len
     j = point[1] % j_len
-    i_remainder = math.floor(point[0] / i_len)
-    j_remainder = math.floor(point[1] / j_len)
-    remainder = (i_remainder + j_remainder)
-    ret = (matrix[i][j] + remainder) % 10
-    value = math.floor((matrix[i][j] + remainder) / 10)
-    ret += value
+    ret = matrix[i][j] + point[0]//i_len + point[1]//j_len
+    while ret > 9:
+        ret -= 9
     return ret
 
 
