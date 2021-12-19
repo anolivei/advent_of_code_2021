@@ -64,7 +64,7 @@ There are two puzzles per day and they are unlock at midnight EST/UTC-5:
 | [Day 12: Passage Pathing](https://github.com/anolivei/advent_of_code_2021/tree/main/day12_Passage_Pathing)| ⭐️ | ⭐️ |
 | [Day 13: Transparent Origami](https://github.com/anolivei/advent_of_code_2021/tree/main/day13_Transparent_Origami)| ⭐️ | ⭐️ |
 | [Day 14: Extended Polymerization](https://github.com/anolivei/advent_of_code_2021/tree/main/day14_Extended_Polymerization)| ⭐️ | ⭐️ |
-| [Day 15: Chiton](https://github.com/anolivei/advent_of_code_2021/tree/main/day_15_Chiton)| | |
+| [Day 15: Chiton](https://github.com/anolivei/advent_of_code_2021/tree/main/day15_Chiton)| | |
 | [Day 16: Packet Decoder](https://github.com/anolivei/advent_of_code_2021/tree/main/day16_Packet_Decoder)| | |
 | [Day 17: Trick Shot](https://github.com/anolivei/advent_of_code_2021/tree/main/day17_Trick_Shot)| | |
 | [Day 18: Snailfish](https://github.com/anolivei/advent_of_code_2021/tree/main/day18_Snailfish)| | |
