@@ -69,6 +69,12 @@ There are two puzzles per day and they are unlock at midnight EST/UTC-5:
 | [Day 17: Trick Shot](https://github.com/anolivei/advent_of_code_2021/tree/main/day17_Trick_Shot)| | |
 | [Day 18: Snailfish](https://github.com/anolivei/advent_of_code_2021/tree/main/day18_Snailfish)| | |
 | [Day 19: Beacon Scanner](https://github.com/anolivei/advent_of_code_2021/tree/main/day19_Beacon_Scanner)| | |
+| [Day 20: Trench Map](https://github.com/anolivei/advent_of_code_2021/tree/main/day20_Trench_Map)| | |
+| [Day 21: Dirac Dice](https://github.com/anolivei/advent_of_code_2021/tree/main/day21_Dirac_Dice)| | |
+| [Day 22: Reactor Reboot](https://github.com/anolivei/advent_of_code_2021/tree/main/day22_Reactor_Reboot)| | |
+| [Day 23: Amphipod](https://github.com/anolivei/advent_of_code_2021/tree/main/day23_Amphipod)| | |
+| [Day 24: Arithmetic Logic Unit](https://github.com/anolivei/advent_of_code_2021/tree/main/day24_Arithmetic_Logic_Unit)| | |
+| [Day 25: Sea Cucumber](https://github.com/anolivei/advent_of_code_2021/tree/main/day25_Sea_Cucumber)| | |
 
 ## Technologies ##
 
